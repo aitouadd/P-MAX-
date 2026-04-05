@@ -1,0 +1,260 @@
+/* P-MAX dedicated notification style */
+.jnotify-container .jnotify-notification.pmax-active {
+    padding: 14px 0;
+}
+
+.jnotify-container .jnotify-notification.pmax-active {
+    width: min(1200px, 94vw) !important;
+    margin: 12px auto !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+
+.jnotify-container .jnotify-notification.pmax-active .jnotify-background {
+    width: 100% !important;
+    left: 0 !important;
+    transform: none;
+    border: 1px solid #f4a0b6;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #ffe7ef 0%, #ffdce7 100%) !important;
+    box-shadow: 0 10px 24px rgba(190, 24, 93, 0.22);
+    opacity: 0.97 !important;
+}
+
+.jnotify-container .jnotify-notification.pmax-active .jnotify-message {
+    max-width: min(1000px, 86vw);
+    margin: 0 auto;
+    color: #9f1239 !important;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.jnotify-container .jnotify-notification.pmax-active .jnotify-message > div {
+    text-align: center;
+}
+
+.jnotify-container .jnotify-notification.pmax-active a.jnotify-close,
+.jnotify-container .jnotify-notification.pmax-active a.jnotify-close:link,
+.jnotify-container .jnotify-notification.pmax-active a.jnotify-close:visited,
+.jnotify-container .jnotify-notification.pmax-active a.jnotify-close:hover {
+    color: #be123c !important;
+    top: 10px;
+    right: 6%;
+}
+
+div.error.pmax-inline,
+div.warning.pmax-inline {
+    max-width: 1100px;
+    margin: 14px auto;
+    border: 1px solid #f4a0b6 !important;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #ffe7ef 0%, #ffdce7 100%) !important;
+    color: #9f1239 !important;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(190, 24, 93, 0.18);
+}
+
+.pmax-budget-panel {
+    width: 100%;
+    max-width: 460px;
+    min-width: 320px;
+    border-radius: 16px;
+    border: 1px solid #d8e5ff;
+    border-left: 6px solid #2f6fed;
+    background: linear-gradient(145deg, #f7fbff 0%, #f2f7ff 100%);
+    box-shadow: 0 12px 24px rgba(30, 75, 155, 0.14);
+    padding: 16px;
+    margin: 8px auto 12px auto;
+    box-sizing: border-box;
+    direction: ltr;
+    text-align: left;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.pmax-budget-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1d3f7f;
+    letter-spacing: 0.2px;
+}
+
+.pmax-header-icon {
+    display: inline-flex;
+    margin-right: 6px;
+}
+
+.pmax-budget-remaining-wrap {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.pmax-budget-remaining {
+    font-size: 44px;
+    font-weight: 800;
+    color: #1747b5;
+    line-height: 1;
+    letter-spacing: -0.6px;
+    word-break: break-word;
+}
+
+.pmax-currency {
+    font-size: 13px;
+    font-weight: 700;
+    color: #335ea8;
+    margin-bottom: 6px;
+    background: #e6efff;
+    border: 1px solid #cfe0ff;
+    border-radius: 999px;
+    padding: 2px 8px;
+}
+
+.pmax-budget-status {
+    margin-top: 8px;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pmax-section-title {
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4a607f;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.pmax-state-safe .pmax-budget-status {
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+}
+
+.pmax-state-warning {
+    border-left-color: #f59e0b;
+}
+
+.pmax-state-warning .pmax-budget-status {
+    background: #fff4da;
+    color: #92400e;
+    border: 1px solid #f3d28f;
+}
+
+.pmax-state-warning .pmax-progress-fill {
+    background: linear-gradient(90deg, #f7b955 0%, #f59e0b 100%);
+}
+
+.pmax-state-danger {
+    border-color: #f4bfd0;
+    border-left-color: #c91646;
+    background: linear-gradient(145deg, #fff7fa 0%, #fff3f7 100%);
+}
+
+.pmax-state-danger .pmax-budget-remaining {
+    color: #c91646;
+}
+
+.pmax-state-danger .pmax-currency {
+    color: #9f1239;
+    background: #ffe7ef;
+    border-color: #f7c5d5;
+}
+
+.pmax-state-danger .pmax-budget-status {
+    background: #ffe4e6;
+    color: #9f1239;
+    border: 1px solid #fda4af;
+}
+
+.pmax-state-danger .pmax-progress-fill {
+    background: linear-gradient(90deg, #f97393 0%, #e11d48 100%);
+}
+
+.pmax-usage {
+    margin-top: 10px;
+}
+
+.pmax-usage-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #3e5d91;
+    margin-bottom: 6px;
+}
+
+.pmax-usage-label {
+    font-weight: 600;
+}
+
+.pmax-usage-value {
+    font-weight: 700;
+    color: #173a76;
+}
+
+.pmax-progress {
+    width: 100%;
+    height: 8px;
+    border-radius: 999px;
+    background: #e3edff;
+    overflow: hidden;
+}
+
+.pmax-progress-fill {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #33c35c 0%, #16a34a 100%);
+}
+
+.pmax-budget-formula {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #334155;
+}
+
+.pmax-budget-formula .pmax-line {
+    display: grid;
+    grid-template-columns: 16px 1fr auto;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px dashed rgba(105, 129, 165, 0.35);
+}
+
+.pmax-budget-formula .pmax-line .pmax-line-icon {
+    color: #2f6fed;
+    text-align: center;
+    width: 16px;
+}
+
+.pmax-budget-formula .pmax-line:last-child {
+    border-bottom: 0;
+}
+
+.pmax-budget-formula .pmax-label {
+    color: #415676;
+    font-weight: 600;
+    text-align: left;
+}
+
+.pmax-budget-formula .pmax-value {
+    color: #142c52;
+    font-weight: 700;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.pmax-budget-formula .pmax-total .pmax-label,
+.pmax-budget-formula .pmax-total .pmax-value {
+    color: #0b3a7a;
+}
