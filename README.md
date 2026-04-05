@@ -121,4 +121,6 @@ This module is distributed under the GNU General Public License v3.0 (or later),
 
 ## Author
 
-Custom
+ITCAMELION SARL
+
+Contact: Y.aitouaddi@itcamelion.com
